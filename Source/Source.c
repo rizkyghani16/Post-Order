@@ -7,3 +7,5 @@
   };
 
   struct tnode *root = NULL;
+  
+  struct tnode * BuatNode(int angka) {
