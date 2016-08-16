@@ -38,3 +38,10 @@
 
   int main() {
         int angka, ch;
+        while (1) {
+                printf("\n1. Masukan Data");
+                printf("\n2. Post-order");
+                printf("\n3. Keluar");
+                printf("\n\nMasukan pilihan anda : ");
+                scanf("%d", &ch);
+                switch (ch) {
