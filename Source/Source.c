@@ -1,4 +1,4 @@
- #include <stdio.h>
+#include <stdio.h>
  #include <stdlib.h>
 
   struct tnode {
@@ -7,5 +7,6 @@
   };
 
   struct tnode *root = NULL;
-  
+
   struct tnode * BuatNode(int angka) {
+        struct tnode *NodeBaru;
