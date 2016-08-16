@@ -5,3 +5,5 @@
  		int angka;
     	struct tnode *kiri, *kanan;
  };
+ 
+ struct tnode *root = NULL;
