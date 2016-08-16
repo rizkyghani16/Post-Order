@@ -29,3 +29,4 @@
 
   void postOrder(struct tnode *node) {
         if (node) {
+                postOrder(node->kiri);
