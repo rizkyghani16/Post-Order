@@ -14,3 +14,5 @@
         NodeBaru->angka = angka;
         NodeBaru->kiri = NULL;
         NodeBaru->kanan = NULL;
+        return (NodeBaru);
+  }
