@@ -18,3 +18,4 @@
   }
 
   void insertion(struct tnode **node, int angka) {
+        if (!*node) {
