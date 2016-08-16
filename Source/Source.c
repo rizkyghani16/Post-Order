@@ -45,3 +45,18 @@
                 printf("\n\nMasukan pilihan anda : ");
                 scanf("%d", &ch);
                 switch (ch) {
+                        case 1:
+                                printf("Masukan angka anda : ");
+                                scanf("%d", &angka);
+                                insertion(&root, angka);
+                                break;
+                        case 2:
+                                postOrder(root);
+                                break;
+                        case 3:
+                                exit(0);
+                        default:
+                                printf("Pilihan anda salah\n");
+                                break;
+                }
+        }
