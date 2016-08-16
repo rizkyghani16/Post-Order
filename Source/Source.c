@@ -10,3 +10,4 @@
 
   struct tnode * BuatNode(int angka) {
         struct tnode *NodeBaru;
+        NodeBaru  = (struct tnode *) malloc(sizeof(struct tnode));
