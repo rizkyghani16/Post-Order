@@ -4,3 +4,4 @@
  struct tnode {
  		int angka;
     	struct tnode *kiri, *kanan;
+ };
