@@ -1,4 +1,4 @@
-#include <stdio.h>
+ #include <stdio.h>
  #include <stdlib.h>
 
   struct tnode {
@@ -11,3 +11,4 @@
   struct tnode * BuatNode(int angka) {
         struct tnode *NodeBaru;
         NodeBaru  = (struct tnode *) malloc(sizeof(struct tnode));
+        NodeBaru->angka = angka;
