@@ -13,3 +13,4 @@
         NodeBaru  = (struct tnode *) malloc(sizeof(struct tnode));
         NodeBaru->angka = angka;
         NodeBaru->kiri = NULL;
+        NodeBaru->kanan = NULL;
