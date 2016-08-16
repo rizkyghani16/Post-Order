@@ -28,3 +28,4 @@
   }
 
   void postOrder(struct tnode *node) {
+        if (node) {
