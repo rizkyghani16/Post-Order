@@ -20,3 +20,4 @@
   void insertion(struct tnode **node, int angka) {
         if (!*node) {
                 *node = BuatNode(angka);
+        } else if (angka < (*node)->angka) {
