@@ -35,3 +35,6 @@
         }
         return;
   }
+
+  int main() {
+        int angka, ch;
