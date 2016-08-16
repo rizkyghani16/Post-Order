@@ -26,3 +26,5 @@
                 insertion(&(*node)->kanan, angka);
         }
   }
+
+  void postOrder(struct tnode *node) {
