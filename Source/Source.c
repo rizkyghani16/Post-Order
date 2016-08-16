@@ -21,3 +21,4 @@
         if (!*node) {
                 *node = BuatNode(angka);
         } else if (angka < (*node)->angka) {
+                insertion(&(*node)->kiri, angka);
