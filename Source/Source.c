@@ -31,3 +31,7 @@
         if (node) {
                 postOrder(node->kiri);
                 postOrder(node->kanan);
+                printf("%d  ", node->angka);
+        }
+        return;
+  }
