@@ -16,3 +16,5 @@
         NodeBaru->kanan = NULL;
         return (NodeBaru);
   }
+
+  void insertion(struct tnode **node, int angka) {
